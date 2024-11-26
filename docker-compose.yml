@@ -6,6 +6,9 @@ services:
       tags:
         - innovanon/ia_clean:latest
         -           ia_clean:latest
+        - innovanon/ia_clean
+        -           ia_clean
+    image:            innovanon/ia_clean
     restart:          no
     logging:
       driver:         syslog   
